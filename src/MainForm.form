@@ -23,8 +23,10 @@
           <gridbag top="2" left="2" bottom="2" right="2" weightx="1.0" weighty="1.0" ipadx="1" ipady="1"/>
         </constraints>
         <properties>
+          <background color="-3288292"/>
           <enabled value="true"/>
           <font size="24"/>
+          <foreground color="-16444607"/>
           <text value="ДА"/>
         </properties>
       </component>
