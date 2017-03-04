@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
-  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-    <margin top="0" left="0" bottom="0" right="0"/>
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
     <constraints>
       <xy x="20" y="20" width="701" height="289"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
-      <component id="3c2ae" class="javax.swing.JLabel">
+      <component id="3c2ae" class="javax.swing.JLabel" binding="задумайтеЧислоОт1Label">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
         </constraints>
         <properties>
           <font size="18"/>
@@ -20,6 +20,7 @@
       <component id="f8329" class="javax.swing.JButton" binding="yesButton">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="2" left="2" bottom="2" right="2" weightx="1.0" weighty="1.0" ipadx="1" ipady="1"/>
         </constraints>
         <properties>
           <enabled value="true"/>
@@ -30,6 +31,7 @@
       <component id="a6a59" class="javax.swing.JButton" binding="noButton">
         <constraints>
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="2" left="2" bottom="2" right="2" weightx="1.0" weighty="1.0"/>
         </constraints>
         <properties>
           <enabled value="true"/>
@@ -40,6 +42,7 @@
       <component id="90286" class="javax.swing.JLabel" binding="question">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
         </constraints>
         <properties>
           <font size="36"/>
